@@ -52,6 +52,7 @@ class UserTableViewController: UITableViewController {
         let row = friends[indexPath.row]
         
         let image = row.profile_image
+        let like = row.like ? "heart.fill" : "heart"
         
         // profile_image 값이 nil 인 경우도 있으니까
         if let image {
@@ -60,6 +61,13 @@ class UserTableViewController: UITableViewController {
         } else {
             cell.profileImageView.image = UIImage(systemName: "star")
         }
+//        
+//        if like == true {
+//            cell.likeButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
+//        } else {
+//            cell.likeButton.setImage(UIImage(systemName: "heart"), for: .normal)
+//        }
+        cell.likeButton.setImage(UIImage(systemName: like), for: .normal)
         
         
         cell.profileImageView.backgroundColor = .brown

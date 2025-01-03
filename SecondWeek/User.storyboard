@@ -3,7 +3,6 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -47,9 +46,20 @@
                                                 </label>
                                             </subviews>
                                         </stackView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tf3-u6-gGK">
+                                            <rect key="frame" x="16" y="8" width="40" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="Tph-2v-AHr"/>
+                                                <constraint firstAttribute="width" constant="40" id="w9V-W7-taI"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain"/>
+                                        </button>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="tf3-u6-gGK" firstAttribute="leading" secondItem="zql-FN-GKK" secondAttribute="leading" id="4z3-0t-RH9"/>
                                         <constraint firstItem="zql-FN-GKK" firstAttribute="leading" secondItem="4dS-h4-Ac0" secondAttribute="leading" constant="16" id="KZo-Yv-a7O"/>
+                                        <constraint firstItem="tf3-u6-gGK" firstAttribute="top" secondItem="zql-FN-GKK" secondAttribute="top" id="UKD-Oy-JBY"/>
                                         <constraint firstAttribute="bottom" secondItem="zql-FN-GKK" secondAttribute="bottom" constant="8" id="Vlt-FC-fue"/>
                                         <constraint firstAttribute="trailing" secondItem="l1p-97-ww3" secondAttribute="trailing" constant="16" id="ZQu-yR-a0h"/>
                                         <constraint firstItem="l1p-97-ww3" firstAttribute="leading" secondItem="zql-FN-GKK" secondAttribute="trailing" constant="16" id="csC-G5-Cda"/>
@@ -58,6 +68,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="likeButton" destination="tf3-u6-gGK" id="tmY-EA-VQ2"/>
                                     <outlet property="messageLabel" destination="nbX-gc-3ys" id="2kH-wi-zo3"/>
                                     <outlet property="nameLabel" destination="sDK-m2-kvM" id="ACu-iL-fas"/>
                                     <outlet property="profileImageView" destination="zql-FN-GKK" id="k3c-bH-u9s"/>
@@ -73,30 +84,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H1h-xa-Ynv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-25.190839694656489" y="-87.323943661971839"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Duo-x8-HRa">
-            <objects>
-                <viewController id="ERG-7o-PYc" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Amb-i3-9GL">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hva-DV-cYb">
-                                <rect key="frame" x="16" y="59" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="fC5-2N-aUw"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bm9-5r-bjI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="909" y="-82"/>
         </scene>
     </scenes>
     <resources>
