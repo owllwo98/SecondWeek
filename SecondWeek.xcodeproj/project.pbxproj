@@ -12,6 +12,7 @@
 		5E0ECDDA2D27B7B5001E4F10 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0ECDD92D27B7B5001E4F10 /* UserTableViewController.swift */; };
 		5E0ECDDC2D27C3A8001E4F10 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0ECDDB2D27C3A8001E4F10 /* User.storyboard */; };
 		5E0ECDDE2D27C75D001E4F10 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0ECDDD2D27C75D001E4F10 /* UserTableViewCell.swift */; };
+		5E0ECDE02D27D1CA001E4F10 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0ECDDF2D27D1CA001E4F10 /* Friend.swift */; };
 		5EAFF9E22D22579B004576BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFF9E12D22579B004576BF /* AppDelegate.swift */; };
 		5EAFF9E42D22579B004576BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFF9E32D22579B004576BF /* SceneDelegate.swift */; };
 		5EAFF9E62D22579B004576BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFF9E52D22579B004576BF /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 		5E0ECDD92D27B7B5001E4F10 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 		5E0ECDDB2D27C3A8001E4F10 /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
 		5E0ECDDD2D27C75D001E4F10 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		5E0ECDDF2D27D1CA001E4F10 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		5EAFF9DE2D22579B004576BF /* SecondWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAFF9E12D22579B004576BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EAFF9E32D22579B004576BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				5E0ECDD92D27B7B5001E4F10 /* UserTableViewController.swift */,
 				5E0ECDDB2D27C3A8001E4F10 /* User.storyboard */,
 				5E0ECDDD2D27C75D001E4F10 /* UserTableViewCell.swift */,
+				5E0ECDDF2D27D1CA001E4F10 /* Friend.swift */,
 			);
 			path = SecondWeek;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				5EB887CE2D23896800A18B61 /* ModalViewController.swift in Sources */,
 				5EB887FA2D26546F00A18B61 /* BasicTableViewController.swift in Sources */,
 				5EB887FD2D26813D00A18B61 /* UIViewController+Extension.swift in Sources */,
+				5E0ECDE02D27D1CA001E4F10 /* Friend.swift in Sources */,
 				5EAFF9E42D22579B004576BF /* SceneDelegate.swift in Sources */,
 				5EB888012D26870F00A18B61 /* ClassStruct.swift in Sources */,
 			);
