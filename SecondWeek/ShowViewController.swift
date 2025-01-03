@@ -16,6 +16,7 @@ class ShowViewController: UIViewController {
         
         view.backgroundColor = colorList.randomElement()!
         print(self, #function)
+        print("")
         
     }
     
