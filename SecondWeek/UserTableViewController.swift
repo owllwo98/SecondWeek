@@ -30,13 +30,25 @@ class UserTableViewController: UITableViewController {
 //    let message = ["고래밥 냠냠", "행복한 하루", "배고파"]
 //    let profile = ["star", "pencil", "star.fill"]
     
-    let friends = FriendsInfo().list
+    var friends = FriendsInfo().list
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
     
     }
+    
+    @objc func likeButtonTapped(_ sender: UIButton) {
+        print(#function, sender.tag)
+        
+        friends[sender.tag].like.toggle()
+        
+        print(friends[sender.tag])
+        
+        tableView.reloadData()
+    }
+    
+    
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return friends.count
@@ -61,14 +73,24 @@ class UserTableViewController: UITableViewController {
         } else {
             cell.profileImageView.image = UIImage(systemName: "star")
         }
-//        
+
+        
 //        if like == true {
 //            cell.likeButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
 //        } else {
 //            cell.likeButton.setImage(UIImage(systemName: "heart"), for: .normal)
 //        }
+        
         cell.likeButton.setImage(UIImage(systemName: like), for: .normal)
         
+        // 버튼을 구분하기 위해 tag 입력
+        cell.likeButton.tag = indexPath.row
+        
+        // IBAction 없이 연결 방법
+        // Function Types
+        cell.likeButton.addTarget(self, action: #selector(likeButtonTapped), for: .touchUpInside)
+        
+    
         
         cell.profileImageView.backgroundColor = .brown
         cell.nameLabel.text = row.name
