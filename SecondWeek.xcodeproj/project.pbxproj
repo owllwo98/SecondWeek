@@ -10,6 +10,8 @@
 		5E0ECDD52D27A822001E4F10 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0ECDD42D27A822001E4F10 /* Kingfisher */; };
 		5E0ECDD82D27A83E001E4F10 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0ECDD72D27A83E001E4F10 /* IQKeyboardManagerSwift */; };
 		5E0ECDDA2D27B7B5001E4F10 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0ECDD92D27B7B5001E4F10 /* UserTableViewController.swift */; };
+		5E0ECDDC2D27C3A8001E4F10 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0ECDDB2D27C3A8001E4F10 /* User.storyboard */; };
+		5E0ECDDE2D27C75D001E4F10 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0ECDDD2D27C75D001E4F10 /* UserTableViewCell.swift */; };
 		5EAFF9E22D22579B004576BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFF9E12D22579B004576BF /* AppDelegate.swift */; };
 		5EAFF9E42D22579B004576BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFF9E32D22579B004576BF /* SceneDelegate.swift */; };
 		5EAFF9E62D22579B004576BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFF9E52D22579B004576BF /* ViewController.swift */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		5E0ECDD92D27B7B5001E4F10 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		5E0ECDDB2D27C3A8001E4F10 /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		5E0ECDDD2D27C75D001E4F10 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		5EAFF9DE2D22579B004576BF /* SecondWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAFF9E12D22579B004576BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EAFF9E32D22579B004576BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				5EB887F92D26546F00A18B61 /* BasicTableViewController.swift */,
 				5EB888002D26870E00A18B61 /* ClassStruct.swift */,
 				5E0ECDD92D27B7B5001E4F10 /* UserTableViewController.swift */,
+				5E0ECDDB2D27C3A8001E4F10 /* User.storyboard */,
+				5E0ECDDD2D27C75D001E4F10 /* UserTableViewCell.swift */,
 			);
 			path = SecondWeek;
 			sourceTree = "<group>";
@@ -179,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EB887CA2D2372A900A18B61 /* PracticeStoryboard.storyboard in Resources */,
+				5E0ECDDC2D27C3A8001E4F10 /* User.storyboard in Resources */,
 				5EAFF9EE2D22579D004576BF /* LaunchScreen.storyboard in Resources */,
 				5EAFF9EB2D22579D004576BF /* Assets.xcassets in Resources */,
 				5EAFF9E92D22579B004576BF /* Main.storyboard in Resources */,
@@ -194,6 +201,7 @@
 			files = (
 				5EB887FF2D2682A300A18B61 /* UILabel+Extension.swift in Sources */,
 				5EB887D22D2396AB00A18B61 /* SecondViewController.swift in Sources */,
+				5E0ECDDE2D27C75D001E4F10 /* UserTableViewCell.swift in Sources */,
 				5E0ECDDA2D27B7B5001E4F10 /* UserTableViewController.swift in Sources */,
 				5EAFF9E62D22579B004576BF /* ViewController.swift in Sources */,
 				5EB887D02D238D7000A18B61 /* ShowViewController.swift in Sources */,
