@@ -9,7 +9,7 @@ import UIKit
 
 class BasicTableViewController: UITableViewController {
 
-    var list = ["프로젝트", "쇼핑", "메인 업무", "새싹과제"] {
+    var list = ["sadsdadadsadaddadadadadddawdwdwawdawdadadwadwdwdwaadwwdadwawadwdawdwadwadawdawdwadawdwadwadwadwdwadwawdadwadwdwdwdwdddwaddadaddadadawdawdawadwdwdawdawdwaadawdwdwadawdawdawdadawdawdwada","프로젝트", "쇼핑","sadsdadadsadaddadadadadddawdwdwawdawdadadwadwdwdwaadwwdadwawadwdawdwadwadawdawdwadawdwadwadwadwdwadwawdadwadwdwdwdwdddwaddadaddadadawdawdawadwdwdawdawdwaadawdwdwadawdawdawdadawdawdwada", "메인 업무", "새싹과제"] {
         // 프로퍼티가 달라질때마다 실행
         didSet {
             tableView.reloadData()
@@ -24,9 +24,9 @@ class BasicTableViewController: UITableViewController {
         
         
         // 모든 3. 셀의 높이 : heightForRowAt 가 동일할 때 한번에 설정 방법
-        tableView.rowHeight = 80
+//        tableView.rowHeight = 80
         
-                
+//        tableView.rowHeight = UITableView.automaticDimension
     }
     
     @IBAction func randomTextTapped(_ sender: UIBarButtonItem) {
@@ -60,7 +60,7 @@ class BasicTableViewController: UITableViewController {
         
         // 디자인
         cell.textLabel?.text = "텍스트 레이블"
-        
+        cell.textLabel?.numberOfLines = 0
         // 셀별로 차이를 줄 수 있지만 불편하다 개선 필요 *
 //        if indexPath.row == 0 {
 //            cell.textLabel?.text = list[indexPath.row]
@@ -104,7 +104,8 @@ class BasicTableViewController: UITableViewController {
     // 3. 셀의 높이 : heightForRowAt
     // 다양한 Cell 의 높이를 설정할때 필요
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+        return UITableView.automaticDimension
+
     }
     
     // 4. 셀을 클릭 했을 때 실행
@@ -112,7 +113,7 @@ class BasicTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(#function, indexPath)
         
-        list.remove(at: indexPath.row)
+//        list.remove(at: indexPath.row)
         
 //        tableView.reloadData()
     }

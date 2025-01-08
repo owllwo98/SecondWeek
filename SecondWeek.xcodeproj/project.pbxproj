@@ -13,6 +13,16 @@
 		5E0ECDDC2D27C3A8001E4F10 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0ECDDB2D27C3A8001E4F10 /* User.storyboard */; };
 		5E0ECDDE2D27C75D001E4F10 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0ECDDD2D27C75D001E4F10 /* UserTableViewCell.swift */; };
 		5E0ECDE02D27D1CA001E4F10 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0ECDDF2D27D1CA001E4F10 /* Friend.swift */; };
+		5E0ECE2F2D2BA2D8001E4F10 /* NoProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0ECE2D2D2BA2D8001E4F10 /* NoProfileTableViewCell.swift */; };
+		5E0ECE302D2BA2D8001E4F10 /* NoProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E0ECE2E2D2BA2D8001E4F10 /* NoProfileTableViewCell.xib */; };
+		5E3283662D2BCF6900A5DC94 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3283652D2BCF6900A5DC94 /* UIColor+Extension.swift */; };
+		5E3283932D2CAAAB00A5DC94 /* BrownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3283922D2CAAAB00A5DC94 /* BrownViewController.swift */; };
+		5E3283952D2CAAB600A5DC94 /* GrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3283942D2CAAB600A5DC94 /* GrayViewController.swift */; };
+		5E3283982D2CC62600A5DC94 /* Ten.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3283972D2CC62600A5DC94 /* Ten.storyboard */; };
+		5E32839A2D2CC7E100A5DC94 /* TenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3283992D2CC7E100A5DC94 /* TenViewController.swift */; };
+		5E32839C2D2CD44D00A5DC94 /* TenCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32839B2D2CD44D00A5DC94 /* TenCollectionViewController.swift */; };
+		5E32839F2D2CD73C00A5DC94 /* TenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32839D2D2CD73C00A5DC94 /* TenCollectionViewCell.swift */; };
+		5E3283A02D2CD73C00A5DC94 /* TenCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E32839E2D2CD73C00A5DC94 /* TenCollectionViewCell.xib */; };
 		5EAFF9E22D22579B004576BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFF9E12D22579B004576BF /* AppDelegate.swift */; };
 		5EAFF9E42D22579B004576BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFF9E32D22579B004576BF /* SceneDelegate.swift */; };
 		5EAFF9E62D22579B004576BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFF9E52D22579B004576BF /* ViewController.swift */; };
@@ -36,6 +46,16 @@
 		5E0ECDDB2D27C3A8001E4F10 /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
 		5E0ECDDD2D27C75D001E4F10 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		5E0ECDDF2D27D1CA001E4F10 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		5E0ECE2D2D2BA2D8001E4F10 /* NoProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoProfileTableViewCell.swift; sourceTree = "<group>"; };
+		5E0ECE2E2D2BA2D8001E4F10 /* NoProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoProfileTableViewCell.xib; sourceTree = "<group>"; };
+		5E3283652D2BCF6900A5DC94 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		5E3283922D2CAAAB00A5DC94 /* BrownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownViewController.swift; sourceTree = "<group>"; };
+		5E3283942D2CAAB600A5DC94 /* GrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayViewController.swift; sourceTree = "<group>"; };
+		5E3283972D2CC62600A5DC94 /* Ten.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ten.storyboard; sourceTree = "<group>"; };
+		5E3283992D2CC7E100A5DC94 /* TenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenViewController.swift; sourceTree = "<group>"; };
+		5E32839B2D2CD44D00A5DC94 /* TenCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenCollectionViewController.swift; sourceTree = "<group>"; };
+		5E32839D2D2CD73C00A5DC94 /* TenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenCollectionViewCell.swift; sourceTree = "<group>"; };
+		5E32839E2D2CD73C00A5DC94 /* TenCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TenCollectionViewCell.xib; sourceTree = "<group>"; };
 		5EAFF9DE2D22579B004576BF /* SecondWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAFF9E12D22579B004576BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EAFF9E32D22579B004576BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +89,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E3283962D2CC60400A5DC94 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				5E3283972D2CC62600A5DC94 /* Ten.storyboard */,
+				5E3283992D2CC7E100A5DC94 /* TenViewController.swift */,
+				5E32839B2D2CD44D00A5DC94 /* TenCollectionViewController.swift */,
+				5E32839D2D2CD73C00A5DC94 /* TenCollectionViewCell.swift */,
+				5E32839E2D2CD73C00A5DC94 /* TenCollectionViewCell.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		5EAFF9D52D22579B004576BF = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +120,7 @@
 		5EAFF9E02D22579B004576BF /* SecondWeek */ = {
 			isa = PBXGroup;
 			children = (
+				5E3283962D2CC60400A5DC94 /* New Group */,
 				5EB887FB2D2680E800A18B61 /* Extension */,
 				5EAFF9E12D22579B004576BF /* AppDelegate.swift */,
 				5EAFF9E32D22579B004576BF /* SceneDelegate.swift */,
@@ -107,7 +140,11 @@
 				5E0ECDD92D27B7B5001E4F10 /* UserTableViewController.swift */,
 				5E0ECDDB2D27C3A8001E4F10 /* User.storyboard */,
 				5E0ECDDD2D27C75D001E4F10 /* UserTableViewCell.swift */,
+				5E0ECE2D2D2BA2D8001E4F10 /* NoProfileTableViewCell.swift */,
+				5E0ECE2E2D2BA2D8001E4F10 /* NoProfileTableViewCell.xib */,
 				5E0ECDDF2D27D1CA001E4F10 /* Friend.swift */,
+				5E3283922D2CAAAB00A5DC94 /* BrownViewController.swift */,
+				5E3283942D2CAAB600A5DC94 /* GrayViewController.swift */,
 			);
 			path = SecondWeek;
 			sourceTree = "<group>";
@@ -117,6 +154,7 @@
 			children = (
 				5EB887FC2D26813D00A18B61 /* UIViewController+Extension.swift */,
 				5EB887FE2D2682A300A18B61 /* UILabel+Extension.swift */,
+				5E3283652D2BCF6900A5DC94 /* UIColor+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -187,10 +225,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3283A02D2CD73C00A5DC94 /* TenCollectionViewCell.xib in Resources */,
 				5EB887CA2D2372A900A18B61 /* PracticeStoryboard.storyboard in Resources */,
 				5E0ECDDC2D27C3A8001E4F10 /* User.storyboard in Resources */,
 				5EAFF9EE2D22579D004576BF /* LaunchScreen.storyboard in Resources */,
+				5E3283982D2CC62600A5DC94 /* Ten.storyboard in Resources */,
 				5EAFF9EB2D22579D004576BF /* Assets.xcassets in Resources */,
+				5E0ECE302D2BA2D8001E4F10 /* NoProfileTableViewCell.xib in Resources */,
 				5EAFF9E92D22579B004576BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,17 +243,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3283952D2CAAB600A5DC94 /* GrayViewController.swift in Sources */,
 				5EB887FF2D2682A300A18B61 /* UILabel+Extension.swift in Sources */,
 				5EB887D22D2396AB00A18B61 /* SecondViewController.swift in Sources */,
 				5E0ECDDE2D27C75D001E4F10 /* UserTableViewCell.swift in Sources */,
 				5E0ECDDA2D27B7B5001E4F10 /* UserTableViewController.swift in Sources */,
+				5E3283662D2BCF6900A5DC94 /* UIColor+Extension.swift in Sources */,
+				5E32839F2D2CD73C00A5DC94 /* TenCollectionViewCell.swift in Sources */,
 				5EAFF9E62D22579B004576BF /* ViewController.swift in Sources */,
 				5EB887D02D238D7000A18B61 /* ShowViewController.swift in Sources */,
 				5EAFF9F62D227190004576BF /* NumberViewController.swift in Sources */,
+				5E32839C2D2CD44D00A5DC94 /* TenCollectionViewController.swift in Sources */,
 				5EAFF9E22D22579B004576BF /* AppDelegate.swift in Sources */,
+				5E0ECE2F2D2BA2D8001E4F10 /* NoProfileTableViewCell.swift in Sources */,
 				5EB887CC2D23893B00A18B61 /* PracticeViewController.swift in Sources */,
+				5E32839A2D2CC7E100A5DC94 /* TenViewController.swift in Sources */,
 				5EB887CE2D23896800A18B61 /* ModalViewController.swift in Sources */,
 				5EB887FA2D26546F00A18B61 /* BasicTableViewController.swift in Sources */,
+				5E3283932D2CAAAB00A5DC94 /* BrownViewController.swift in Sources */,
 				5EB887FD2D26813D00A18B61 /* UIViewController+Extension.swift in Sources */,
 				5E0ECDE02D27D1CA001E4F10 /* Friend.swift in Sources */,
 				5EAFF9E42D22579B004576BF /* SceneDelegate.swift in Sources */,
