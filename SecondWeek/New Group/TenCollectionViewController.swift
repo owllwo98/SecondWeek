@@ -46,6 +46,8 @@ class TenCollectionViewController: UIViewController, UICollectionViewDataSource,
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        // 원래 cell 은 UICollectionViewCell 타입 인데 우리가 만든 TenCollectionViewCell 을 사용하려면 다운 캐스팅을 진행해야한다.
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TenCollectionViewCell", for: indexPath) as! TenCollectionViewCell
         
         return cell
